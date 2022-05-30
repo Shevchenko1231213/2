@@ -1,0 +1,24 @@
+﻿<body>
+<div>
+    <table>
+        <tr>
+            <td>GetAllOrders</td>
+            <td>AddOrder</td>
+        </tr>
+        <tr>
+             <td>
+                  <form action="@Url.Action("GetAllOrders", "Order")" method="get">
+                  <input type="hidden"/>
+                  <button type="submit">GetAllOrders</button>
+                  </form>
+             </td>
+             <td>
+                  <form action="@Url.Action("AddOrder", "Order")" method="get">
+                  <input type="hidden" name="Id"/>
+                  <button type="submit">AddOrder</button>
+                  </form>
+             </td>
+        </tr>
+    </table>
+</div>
+</body>

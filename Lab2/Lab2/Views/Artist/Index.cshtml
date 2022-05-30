@@ -1,0 +1,25 @@
+﻿<body>
+<div>
+    <table>
+        <tr>
+            <td>GetAllArtist</td>
+            <td>AddArtist</td>
+        </tr>
+        <tr>
+             <td>
+                  <form action="@Url.Action("GetAllArtist", "Artist")" method="get">
+                  <input type="hidden"/>
+                  <button type="submit">GetAllArtist</button>
+                  </form>
+             </td>
+             <td>
+                  <form action="@Url.Action("AddArtist", "Artist")" method="get">
+                  <input type="hidden" name="Id"/>
+                  <button type="submit">AddArtist</button>
+                  </form>
+             </td>
+        </tr>
+    </table>
+</div>
+</body>
+

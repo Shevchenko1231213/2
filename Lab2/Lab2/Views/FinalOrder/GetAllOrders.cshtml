@@ -1,0 +1,19 @@
+﻿<body>
+    <div>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>>OrderId</td>
+            <td>ArtistId</td>
+        </tr>
+        @foreach (var value in Model)
+        {
+            <tr>
+              <td>@value.Id</td>
+              <td>@value.OrderId</td>
+              <td>@value.ArtistId</td>
+            </tr>
+        }
+    </table>
+    </div>
+</body>
